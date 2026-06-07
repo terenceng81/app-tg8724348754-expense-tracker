@@ -1,8 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { authClient } from '@/lib/auth-client'
-import '@/app/globals.css'
-
 export default function AuthPage() {
   const { data: session, isPending } = authClient.useSession()
   const [mode, setMode] = useState('signin')

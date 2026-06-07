@@ -1,3 +1,5 @@
+import './globals.css'
+
 export const metadata = {
   title: 'Ledger — Personal Expense Tracker',
   description: 'Track your spending, understand your habits, and see where your money goes.',
