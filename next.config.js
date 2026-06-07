@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  serverExternalPackages: ['better-auth', 'pg'],
+  experimental: {
+    serverComponentsExternalPackages: ['better-auth', 'pg'],
+  },
 }
 module.exports = nextConfig
